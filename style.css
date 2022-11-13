@@ -1,0 +1,40 @@
+.container{
+	width: 600px;
+	margin-left: non
+}
+
+
+
+.green{
+	height: 50px;
+	background-color: green;
+}
+
+
+ @media  (max-width:767px) {
+ .container{
+	width: 400px;
+	margin-left: non
+}
+ 
+  .green {
+    height: 50px;
+  }
+} 
+
+@media (min-width: 768px) and (max-width:991px) {
+  .green {
+    height: 62px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199) {
+  .green {
+    height: 81px;
+  }
+
+@media (min-width: 1200px) {
+  .green{
+    height: 97px;
+  }
+}
